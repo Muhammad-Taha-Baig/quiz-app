@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App - MTB</title>
+    <!-- ========== Custom CSS ========== -->
+    <link rel="stylesheet" href="/style.css" />
+    <!-- ========== Google Fonts ========== -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="quiz-container">
+        <div class="heading">
+          <h3>QUIZ APP MTB</h3>
+          <span>Total Questions: 03</span>
+        </div>
+        <div class="content">
+          <h2 class="question-box">1. This is Dummy Text</h2>
+          <ul>
+            <li>
+              <input
+                type="radio"
+                name="option"
+                class="options"
+                value="a"
+                id="option1"
+              />
+              <label for="option1">Option 1</label>
+            </li>
+
+            <li>
+              <input
+                type="radio"
+                name="option"
+                class="options"
+                value="b"
+                id="option2"
+              />
+              <label for="option2">Option 2</label>
+            </li>
+
+            <li>
+              <input
+                type="radio"
+                name="option"
+                class="options"
+                value="c"
+                id="option3"
+              />
+              <label for="option3">Option 3</label>
+            </li>
+
+            <li>
+              <input
+                type="radio"
+                name="option"
+                class="options"
+                value="d"
+                id="option4"
+              />
+              <label for="option4">Option 4</label>
+            </li>
+          </ul>
+          <button class="prev-btn btn" onclick="backQuiz()">Previous</button>
+          <button class="next-btn btn" onclick="submitQuiz()">Next</button>
+        </div>
+      </div>
+    </div>
+    <!-- ========== Custom Js ========== -->
+    <script src="/custom.js"></script>
+  </body>
+</html>
